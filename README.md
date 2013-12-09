@@ -25,3 +25,10 @@ My personal color schemes for the applications I use
 
 - Drop file onto terminal preferences
 - Done
+
+
+### Sublime Text 3
+
+- Drop file into '~/library/Application Support/Sublime Text 3/Packages/User/Color Scheme'
+- (Create directories if they not exist yet)
+- Done
