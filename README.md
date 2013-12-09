@@ -33,3 +33,9 @@ My personal color schemes for the applications I use
 - (Create directories if they not exist yet)
 - Add '"color_scheme": "Packages/User/Color Scheme/Solarized (dark).tmTheme"' to user settings
 - Done
+
+
+### CodeRunner
+
+- Import it in preferences
+- Done
