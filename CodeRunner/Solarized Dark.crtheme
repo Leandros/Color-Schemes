@@ -7,13 +7,13 @@
 	<key>CharColor</key>
 	<string>#d56019</string>
 	<key>ClassColor</key>
-	<string>#9BD9F2</string>
+	<string>#2c9dda</string>
 	<key>CommentColor</key>
 	<string>#6a8188</string>
 	<key>FunctionColor</key>
 	<string>#93a3a5</string>
 	<key>KeywordColor</key>
-	<string>#67a500</string>
+	<string>#96a600</string>
 	<key>NumberColor</key>
 	<string>#d56019</string>
 	<key>PreprocessorColor</key>
@@ -25,6 +25,6 @@
 	<key>TextColor</key>
 	<string>#94a4a6</string>
 	<key>VariableColor</key>
-	<string>#a2c9d5</string>
+	<string>#2c9dda</string>
 </dict>
 </plist>
