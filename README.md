@@ -2,7 +2,7 @@ Color-Schemes
 =============
 
 My personal color schemes for the applications I use
-
+AppCode and IntelliJ are expaneded. Those are the whole setting for the IDE, since they're really mighty.
 
 
 ## Installation
