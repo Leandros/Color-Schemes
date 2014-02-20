@@ -1,0 +1,694 @@
+(!default
+    (caret [rgba(0.505882, 0.564706, 0.564706, 1.000000)])
+    (selection [rgba(0.345098, 0.431373, 0.458824, 0.500000)])
+    (line-highlight [rgba(0.345098, 0.431373, 0.458824, 0.500000)])
+    (invisibles [rgba(0.000000, 0.168627, 0.211765, 1.000000)])
+    (color [rgba(0.513726, 0.580392, 0.588235, 1.000000)])
+    (background [rgba(0.000000, 0.168627, 0.211765, 1.000000)]))
+
+(apply comment
+    Comment
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply string
+    String
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply string
+    StringNumber
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply string.regexp
+    Regexp
+    (color [rgba(0.827451, 0.003922, 0.007843, 1.000000)]))
+
+(apply constant.numeric
+    Number
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply keyword
+    Keyword
+    (color [rgba(0.521569, 0.600000, 0.000000, 1.000000)]))
+
+(apply storage
+    Storage
+    (color [rgba(0.450980, 0.541176, 0.019608, 1.000000)]))
+
+(apply [entity.name.class, entity.name.type.class]
+    [Class name]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply entity.name.function
+    [Function name]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply punctuation.definition.variable
+    [Variable start]
+    (color [rgba(0.521569, 0.600000, 0.000000, 1.000000)]))
+
+(apply [punctuation.section.embedded.begin, punctuation.section.embedded.end]
+    [Embedded code markers]
+    (color [rgba(0.827451, 0.003922, 0.007843, 1.000000)]))
+
+(apply [constant.language, meta.preprocessor]
+    [Built-in constant]
+    (color [rgba(0.709804, 0.537255, 0.000000, 1.000000)]))
+
+(apply [support.function.construct, keyword.other.new]
+    Support.construct
+    (color [rgba(0.827451, 0.003922, 0.007843, 1.000000)]))
+
+(apply [constant.character, constant.other]
+    [User-defined constant]
+    (color [rgba(0.796078, 0.294118, 0.086275, 1.000000)]))
+
+(apply entity.other.inherited-class [Inherited class])
+
+(apply variable.parameter [Function argument])
+
+(apply entity.name.tag
+    [Tag name]
+    (bold)
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end]
+    [Tag start/end]
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply entity.other.attribute-name
+    [Tag attribute]
+    (color [rgba(0.576471, 0.631373, 0.631373, 1.000000)]))
+
+(apply support.function
+    [Library function]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply punctuation.separator.continuation
+    Continuation
+    (color [rgba(0.827451, 0.003922, 0.007843, 1.000000)]))
+
+(apply support.constant [Library constant])
+
+(apply [support.type, support.class]
+    [Library class/type]
+    (color [rgba(0.521569, 0.600000, 0.000000, 1.000000)]))
+
+(apply support.type.exception
+    [Library Exception]
+    (color [rgba(0.796078, 0.294118, 0.086275, 1.000000)]))
+
+(apply keyword.other.special-method
+    Special
+    (color [rgba(0.796078, 0.294118, 0.086275, 1.000000)]))
+
+(apply support.other.variable [Library variable])
+
+(apply [string.quoted.double, string.quoted.single]
+    [Quoted String]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [punctuation.definition.string.begin, punctuation.definition.string.end]
+    Quotes
+    (color [rgba(0.776471, 0.000000, 0.000000, 1.000000)]))
+
+(apply [entity.name.tag.css, support.type.property-name.css, meta.property-name.css]
+    [CSS: Property]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply source.css
+    [CSS: @font-face]
+    (color [rgba(0.815686, 0.121569, 0.117647, 1.000000)]))
+
+(apply meta.selector.css
+    [CSS: Selector]
+    (color [rgba(0.325490, 0.407843, 0.443137, 1.000000)]))
+
+(apply punctuation.section.property-list.css
+    [CSS: {}]
+    (color [rgba(0.352941, 0.454902, 0.811765, 1.000000)]))
+
+(apply [meta.property-value.css constant.numeric.css, keyword.other.unit.css,constant.other.color.rgb-value.css]
+    [CSS: Numeric Value]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply meta.property-value.css
+    [CSS: Value]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply keyword.other.important.css
+    [CSS: !Important]
+    (color [rgba(0.815686, 0.121569, 0.117647, 1.000000)]))
+
+(apply support.constant.color
+    [CSS: Standard Value]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply entity.name.tag.css
+    [CSS: Tag]
+    (color [rgba(0.450980, 0.541176, 0.074510, 1.000000)]))
+
+(apply [punctuation.separator.key-value.css, punctuation.terminator.rule.css]
+    [CSS: : ,]
+    (color [rgba(0.325490, 0.407843, 0.443137, 1.000000)]))
+
+(apply entity.other.attribute-name.class.css
+    [CSS .class]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css]
+    [CSS :pseudo]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply entity.other.attribute-name.id.css
+    [CSS: #id]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [meta.function.js, entity.name.function.js, support.function.dom.js]
+    [JS: Function Name]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply [text.html.basic source.js.embedded.html]
+    [JS: Source]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply storage.type.function.js
+    [JS: Function]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply constant.numeric.js
+    [JS: Numeric Constant]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply meta.brace.square.js
+    [JS: []]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply storage.type.js
+    [JS: Storage Type]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [meta.brace.round, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js]
+    [()]
+    (color [rgba(0.576471, 0.631373, 0.631373, 1.000000)]))
+
+(apply meta.brace.curly.js
+    [{}]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [entity.name.tag.doctype.html, meta.tag.sgml.html, string.quoted.double.doctype.identifiers-and-DTDs.html]
+    [HTML: Doctype]
+    (italic)
+    (color [rgba(0.537255, 0.564706, 0.564706, 1.000000)]))
+
+(apply comment.block.html
+    [HTML: Comment Block]
+    (italic)
+    (color [rgba(0.513726, 0.580392, 0.588235, 1.000000)]))
+
+(apply entity.name.tag.script.html
+    [HTML: Script]
+    (italic))
+
+(apply [source.css.embedded.html string.quoted.double.html]
+    [HTML: Style]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply text.html.ruby
+    [HTML: Text]
+    (bold)
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply [text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, punctuation.separator.key-value.html]
+    [HTML: =]
+    (color [rgba(0.439216, 0.509804, 0.517647, 1.000000)]))
+
+(apply [text.html.basic entity.other.attribute-name.html]
+    [HTML: something=]
+    (color [rgba(0.439216, 0.509804, 0.517647, 1.000000)]))
+
+(apply [text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html ]
+    [HTML: "]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply entity.name.tag.block.any.html
+    [HTML: <tag>]
+    (bold)
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [source.css.embedded.html entity.name.tag.style.html]
+    [HTML: style]
+    (italic))
+
+(apply entity.name.tag.style.html [HTML: <style>])
+
+(apply [text.html.basic punctuation.section.property-list.css] [HTML: {}])
+
+(apply [source.css.embedded.html, comment.block.html]
+    [HTML: Embeddable]
+    (italic)
+    (color [rgba(0.505882, 0.564706, 0.564706, 1.000000)]))
+
+(apply punctuation.definition.variable.ruby
+    [Ruby: Variable definition]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply meta.function.method.with-arguments.ruby
+    [Ruby: Function Name]
+    (color [rgba(0.439216, 0.509804, 0.517647, 1.000000)]))
+
+(apply variable.language.ruby
+    [Ruby: Variable]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply entity.name.function.ruby
+    [Ruby: Function]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [keyword.control.ruby, keyword.control.def.ruby]
+    [Ruby: Keyword Control]
+    (bold)
+    (color [rgba(0.450980, 0.541176, 0.019608, 1.000000)]))
+
+(apply [keyword.control.class.ruby, meta.class.ruby]
+    [Ruby: Class]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply entity.name.type.class.ruby
+    [Ruby: Class Name]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply keyword.control.ruby
+    [Ruby: Keyword]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply support.class.ruby
+    [Ruby: Support Class]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply keyword.other.special-method.ruby
+    [Ruby: Special Method]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply [constant.language.ruby, constant.numeric.ruby]
+    [Ruby: Constant]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply variable.other.constant.ruby
+    [Ruby: Constant Other]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply constant.other.symbol.ruby
+    [Ruby: :symbol]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [punctuation.section.embedded.ruby, punctuation.definition.string.begin.ruby, punctuation.definition.string.end.ruby]
+    [Ruby: Punctuation Section '']
+    (color [rgba(0.815686, 0.121569, 0.117647, 1.000000)]))
+
+(apply keyword.other.special-method.ruby
+    [Ruby: Special Method]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply keyword.control.import.include.php
+    [PHP: Include]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply [text.html.ruby meta.tag.inline.any.html]
+    [Ruby: erb =]
+    (color [rgba(0.505882, 0.564706, 0.564706, 1.000000)]))
+
+(apply [text.html.ruby punctuation.definition.string.begin, text.html.ruby punctuation.definition.string.end]
+    [Ruby: erb ""]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [punctuation.definition.string.begin, punctuation.definition.string.end]
+    [PHP: Quoted Single]
+    (color [rgba(0.513726, 0.580392, 0.588235, 1.000000)]))
+
+(apply support.class.php
+    [PHP: Class Names]
+    (color [rgba(0.513726, 0.580392, 0.588235, 1.000000)]))
+
+(apply [keyword.operator.index-start.php, keyword.operator.index-end.php]
+    [PHP: []]
+    (color [rgba(0.827451, 0.117647, 0.117647, 1.000000)]))
+
+(apply meta.array.php
+    [PHP: Array]
+    (color [rgba(0.325490, 0.407843, 0.443137, 1.000000)]))
+
+(apply [meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php]
+    [PHP: Array()]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply support.function.construct.php
+    [PHP: Array Construct]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply [punctuation.definition.array.begin, punctuation.definition.array.end]
+    [PHP: Array Begin]
+    (color [rgba(0.827451, 0.117647, 0.117647, 1.000000)]))
+
+(apply constant.numeric.php
+    [PHP: Numeric Constant]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply keyword.other.new.php
+    [PHP: New]
+    (color [rgba(0.796078, 0.294118, 0.086275, 1.000000)]))
+
+(apply keyword.operator.class
+    [PHP: ::]
+    (color [rgba(0.513726, 0.580392, 0.588235, 1.000000)]))
+
+(apply variable.other.property.php
+    [PHP: Other Property]
+    (color [rgba(0.537255, 0.564706, 0.564706, 1.000000)]))
+
+(apply [storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php]
+    [PHP: Class]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply punctuation.terminator.expression.php
+    [PHP: Semicolon]
+    (color [rgba(0.513726, 0.580392, 0.588235, 1.000000)]))
+
+(apply meta.other.inherited-class.php
+    [PHP: Inherited Class]
+    (color [rgba(0.325490, 0.407843, 0.443137, 1.000000)]))
+
+(apply storage.type.php
+    [PHP: Storage Type]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply entity.name.function.php
+    [PHP: Function]
+    (color [rgba(0.537255, 0.564706, 0.564706, 1.000000)]))
+
+(apply support.function.construct.php
+    [PHP: Function Construct]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply [entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php]
+    [PHP: Function Call]
+    (color [rgba(0.513726, 0.580392, 0.588235, 1.000000)]))
+
+(apply keyword.other.phpdoc
+    [PHP: Comment]
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply source.php.embedded.block.html
+    [PHP: Source Emebedded]
+    (color [rgba(0.741176, 0.211765, 0.074510, 1.000000)]))
+
+(apply storage.type.function.php
+    [PHP: Storage Type Function]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply constant.numeric.c
+    [C: constant]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [meta.preprocessor.c.include, meta.preprocessor.macro.c]
+    [C: Meta Preprocessor]
+    (color [rgba(0.733333, 0.215686, 0.000000, 1.000000)]))
+
+(apply [keyword.control.import.define.c, keyword.control.import.include.c]
+    [C: Keyword]
+    (color [rgba(0.733333, 0.215686, 0.000000, 1.000000)]))
+
+(apply entity.name.function.preprocessor.c
+    [C: Function Preprocessor]
+    (color [rgba(0.733333, 0.215686, 0.000000, 1.000000)]))
+
+(apply [meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c]
+    [C: include <something.c>]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [support.function.C99.c, support.function.any-method.c, entity.name.function.c]
+    [C: Function]
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply [punctuation.definition.string.begin.c, punctuation.definition.string.end.c]
+    [C: "]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply storage.type.c
+    [C: Storage Type]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply [meta.diff, meta.diff.header]
+    [diff: header]
+    (italic)
+    (color [rgba(0.878431, 0.929412, 0.866667, 1.000000)])
+    (background [rgba(0.647059, 0.466667, 0.023529, 1.000000)]))
+
+(apply markup.deleted
+    [diff: deleted]
+    (color [rgba(0.827451, 0.125490, 0.121569, 1.000000)])
+    (background [rgba(0.917647, 0.890196, 0.792157, 1.000000)]))
+
+(apply markup.changed
+    [diff: changed]
+    (color [rgba(0.749020, 0.223529, 0.015686, 1.000000)])
+    (background [rgba(0.917647, 0.890196, 0.792157, 1.000000)]))
+
+(apply markup.inserted
+    [diff: inserted]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)])
+    (background [rgba(0.917647, 0.890196, 0.792157, 1.000000)]))
+
+(apply [text.html.markdown meta.dummy.line-break]
+    [Markdown: Linebreak]
+    (color [rgba(0.878431, 0.929412, 0.866667, 1.000000)])
+    (background [rgba(0.647059, 0.466667, 0.023529, 1.000000)]))
+
+(apply [text.html.markdown markup.raw.inline]
+    [Markdown: Raw]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [text.restructuredtext markup.raw]
+    [reST raw]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [other.package.exclude, other.remove]
+    [Other: Removal]
+    (color [rgba(0.827451, 0.125490, 0.121569, 1.000000)]))
+
+(apply other.add
+    [Other: Add]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [punctuation.section.group.tex , punctuation.definition.arguments.begin.latex, punctuation.definition.arguments.end.latex, punctuation.definition.arguments.latex]
+    [Tex: {}]
+    (color [rgba(0.721569, 0.113725, 0.109804, 1.000000)]))
+
+(apply meta.group.braces.tex
+    [Tex: {text}]
+    (color [rgba(0.647059, 0.466667, 0.019608, 1.000000)]))
+
+(apply string.other.math.tex
+    [Tex: Other Math]
+    (color [rgba(0.647059, 0.466667, 0.019608, 1.000000)]))
+
+(apply variable.parameter.function.latex
+    [Tex: {var}]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply punctuation.definition.constant.math.tex
+    [Tex: Math \\]
+    (color [rgba(0.815686, 0.121569, 0.117647, 1.000000)]))
+
+(apply [text.tex.latex constant.other.math.tex, constant.other.general.math.tex, constant.other.general.math.tex, constant.character.math.tex]
+    [Tex: Constant Math]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply string.other.math.tex
+    [Tex: Other Math String]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply [punctuation.definition.string.begin.tex, punctuation.definition.string.end.tex]
+    [Tex: $]
+    (color [rgba(0.827451, 0.125490, 0.121569, 1.000000)]))
+
+(apply [keyword.control.label.latex, text.tex.latex constant.other.general.math.tex]
+    [Tex: \label]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply variable.parameter.definition.label.latex
+    [Tex: \label { }]
+    (color [rgba(0.815686, 0.121569, 0.117647, 1.000000)]))
+
+(apply support.function.be.latex
+    [Tex: Function ]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply support.function.section.latex
+    [Tex: Support Function Section]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply support.function.general.tex
+    [Tex: Support Function]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [punctuation.definition.comment.tex, comment.line.percentage.tex]
+    [Tex: Comment]
+    (italic))
+
+(apply keyword.control.ref.latex
+    [Tex: Reference Label]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply [storage.type.class.python, storage.type.function.python, storage.modifier.global.python]
+    [Python: storage]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply [keyword.control.import.python, keyword.control.import.from.python]
+    [Python: import]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply support.type.exception.python
+    [Python: Support.exception]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply support.function.builtin.shell
+    [Shell: builtin]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply variable.other.normal.shell
+    [Shell: variable]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply source.shell
+    [Shell: DOT_FILES]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply [meta.scope.for-in-loop.shell, variable.other.loop.shell]
+    [Shell: meta scope in loop]
+    (color [rgba(0.325490, 0.407843, 0.443137, 1.000000)]))
+
+(apply [punctuation.definition.string.end.shell, punctuation.definition.string.begin.shell]
+    [Shell: ""]
+    (color [rgba(0.454902, 0.545098, 0.000000, 1.000000)]))
+
+(apply [meta.scope.case-block.shell, meta.scope.case-body.shell]
+    [Shell: Meta Block]
+    (color [rgba(0.325490, 0.407843, 0.443137, 1.000000)]))
+
+(apply punctuation.definition.logical-expression.shell
+    [Shell: []]
+    (color [rgba(0.803922, 0.117647, 0.113725, 1.000000)]))
+
+(apply comment.line.number-sign.shell
+    [Shell: Comment]
+    (italic))
+
+(apply keyword.other.import.java
+    [Java: import]
+    (color [rgba(0.741176, 0.219608, 0.000000, 1.000000)]))
+
+(apply storage.modifier.import.java
+    [Java: meta-import]
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply [meta.class.java storage.modifier.java]
+    [Java: Class]
+    (color [rgba(0.647059, 0.470588, 0.000000, 1.000000)]))
+
+(apply [source.java comment.block]
+    [Java: /* comment */]
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply [comment.block meta.documentation.tag.param.javadoc keyword.other.documentation.param.javadoc]
+    [Java: /* @param */]
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply [punctuation.definition.variable.perl, variable.other.readwrite.global.perl, variable.other.predefined.perl, keyword.operator.comparison.perl]
+    [Perl: variables]
+    (color [rgba(0.709804, 0.537255, 0.000000, 1.000000)]))
+
+(apply support.function.perl
+    [Perl: functions]
+    (color [rgba(0.521569, 0.600000, 0.000000, 1.000000)]))
+
+(apply comment.line.number-sign.perl
+    [Perl: comments]
+    (italic)
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply [punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl]
+    [Perl: quotes]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply constant.character.escape.perl
+    [Perl: \char]
+    (color [rgba(0.862745, 0.196078, 0.184314, 1.000000)]))
+
+(apply punctuation.definition.list_item.markdown
+    [Markdown: List]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)]))
+
+(apply markup.heading
+    [Markup: Heading]
+    (color [rgba(0.709804, 0.537255, 0.000000, 1.000000)]))
+
+(apply [meta.link.inline.markdown,  string.other.link.title.markdown]
+    [Markdown: Link]
+    (color [rgba(0.521569, 0.600000, 0.000000, 1.000000)]))
+
+(apply [
+			meta.image.inline.markdown, string.other.link.description.markdown
+			]
+    [Markdown: Image]
+    (color [rgba(0.521569, 0.600000, 0.000000, 1.000000)]))
+
+(apply entity.name.section.markdown
+    [Markdown: Heading entity name]
+    (color [rgba(0.796078, 0.294118, 0.086275, 1.000000)]))
+
+(apply [meta.separator.markdown
+			]
+    [Markdown: separator]
+    (color [rgba(0.149020, 0.545098, 0.823529, 1.000000)])
+    (background [rgba(0.015686, 0.125490, 0.160784, 1.000000)]))
+
+(apply markup.raw.block.markdown
+    [Markdown: code block]
+    (color [rgba(0.709804, 0.537255, 0.000000, 1.000000)]))
+
+(apply markup.raw.inline.markdown
+    [Markdown: code inline]
+    (color [rgba(0.709804, 0.537255, 0.000000, 1.000000)]))
+
+(apply [punctuation.definition.raw.markdown, punctuation.definition.italic.markdown, punctuation.definition.bold.markdown, punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown
+			
+			]
+    [Markdown: punctuation definition]
+    (color [rgba(0.345098, 0.431373, 0.458824, 1.000000)]))
+
+(apply [punctuation.definition.blockquote.markdown
+			]
+    [Markdown: blockquote punctuation definition]
+    (color [rgba(0.164706, 0.631373, 0.596078, 1.000000)]))
+
+(apply bold
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))
+
+(apply bold
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))

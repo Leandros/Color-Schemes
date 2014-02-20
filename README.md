@@ -39,3 +39,7 @@ AppCode and IntelliJ are expaneded. Those are the whole setting for the IDE, sin
 
 - Import it in preferences
 - Done
+
+### Chocolat
+
+- Put it into ~/Library/Application Support/Chocolat/Themes
